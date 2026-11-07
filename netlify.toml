@@ -1,0 +1,5 @@
+# Static site, no build. _redirects is rewritten by TylerTube's scripts/tunnel.mjs whenever the
+# cloudflared quick-tunnel URL changes.
+[build]
+  publish = "."
+  command = ""
